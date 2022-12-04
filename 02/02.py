@@ -48,8 +48,7 @@ for game in games:
     my_score += rock_paper_scissors(their_play, my_play)
 
     # part 2
-    score = rock_paper_scissors(their_play, my_play, pt_2=True)
-    my_new_score += score
+    my_new_score += rock_paper_scissors(their_play, my_play, pt_2=True)
 
 print(f"First answer: {my_score}")
 print(f"Second answer: {my_new_score}")
